@@ -1,0 +1,447 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #0b62b3;
+    background: -moz-linear-gradient(-45deg, #0b62b3 0%, #7dff5f 100%);
+    background: -webkit-linear-gradient(-45deg, #0b62b3 0%, #7dff5f 100%);
+    background: linear-gradient(135deg, #0b62b3 0%, #7dff5f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b62b3', endColorstr='#7dff5f', GradientType=1);
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+*{
+    box-sizing: border-box;
+}
+.logo img{
+    width: 100%;
+    height: 50px;
+}
+.canchinh{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.gioithieu{
+    margin-top: 30px;
+}
+.gioithieu marquee{
+    font-size: 25px;
+    color: red;
+}
+.gioithieu span{
+    font-size: 25px;
+}
+.contact{
+    float: right;
+}
+.content{
+    background: beige;
+}
+.pb400{
+    padding-bottom: 400px;
+}
+.alert.alert-success{
+    color: red;
+}
+.linkbai{
+    display: flex;
+    justify-content: space-between;
+}
+.batdauhoc{
+    padding-bottom: 400px;
+}
+.dsbh_p1{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 500px;
+    background: beige;
+}
+.dsbh_p1 h2{
+    color: red;
+    font-size: 36px;
+    font-weight: 700;
+}
+.dd h3{
+    font-size: 18px;
+}
+.dsbh_p2{
+    background-color: blanchedalmond;
+    padding: 0 50px 50px 50px;
+}
+.bangchucai{
+    padding: 50px;
+}
+.dsbh_p2 p{
+  margin-bottom: 50px;  
+}
+.hangbh{
+    display: flex;
+}
+.bdkt{
+    padding-bottom: 400px;
+}
+.diendan{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.docvanmau p{
+    font-size: 23px;
+}
+.tieude_ht{
+    text-align:center;
+    color:red;
+}
+.hinhdaidien{
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.hinhdaidien img{
+    width:500px;
+    height:300px; 
+}
+.hinhbainghe img{
+    width:700px;
+    height:500px;
+}
+.audio{
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+.khung{
+    font-size: 23px;
+    margin-left: 30px;
+}
+.chucai{
+    border: 1px solid darksalmon;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    float: left;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 5px;
+}
+a:hover{
+    text-decoration: none;
+}
+a:hover .baihoc{
+    background:#B43104;
+    color: bisque;
+}
+.baihoc{
+    background-color:darksalmon;
+    margin-right: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.baihocgt{
+    background-color:darksalmon;
+    margin-right: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    color: papayawhip;
+}
+.baihocactive{
+    background:#B43104;
+    color: bisque;
+    margin-right: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    color: brown;
+    font-size: 21px;
+}
+.ctbh{
+    padding-bottom: 100px;
+}
+.dvm{
+    padding-bottom: 400px;
+}
+.card-head h3{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.guimaxacnhan{
+    padding-bottom: 400px;
+}
+.nhapmaxacnhan{
+    padding-bottom: 400px;
+}
+.btn-dk{
+    text-align: center;
+    margin-top: 40px;
+}
+.dkemail{
+    margin-left: 40px;
+}
+.v_kqkttv{
+    padding-bottom: 500px;
+}
+.row.nopbai{
+    margin-top: 20px;
+}
+.row.hoanthanh{
+    display: none;
+}
+.btn-hoanthanh{
+    margin-top: 50px;
+}
+.hienthidapan .btnhtda{
+    display: none;
+}
+.hienthidapan .ndda{
+    display: none;
+}
+.col-md-8.col-8.ctbh .ndch{
+    display: none;
+}
+.mp3tuvung{
+    margin-bottom: 40px;
+}
+.docvanmau{
+    line-height: 360%;
+    margin-top: 25px;
+}
+.page-footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.card-header{
+    text-align: center;
+    color: red;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.wrap-btn{
+    text-align: center;
+}
+.baihoc:hover{
+    color: black;
+    background-color: antiquewhite;
+}
+.dsbh_p1 ul{
+    list-style: none;
+}
+.dsbh_p1 ul li {
+    margin: 10px;
+    font-size: 22px;
+}
+.nd{
+    padding: 35px;
+    font-size: 20px;
+    background-color: lightskyblue;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.ndhocroi{
+    padding: 35px;
+    background-color: darkcyan;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+    color: cyan;
+    font-size: 25px;
+}
+.ndhocroi:hover{
+    background-color: aquamarine;
+}
+.nd:hover{
+    background-color: aquamarine;
+}
+.nguphap .audio{
+    margin: 20px;
+}
+.hienthidapan{
+    text-align: center;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.tieudenguphap{
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+  }
+  #countdown{
+	width: 260px;
+	height: 120px;
+	text-align: center;
+	background: #222;
+	background-image: -webkit-linear-gradient(top, #F8E0E6, #F6CECE, #F6CECE, #F8E0E6); 
+	background-image:    -moz-linear-gradient(top, #F8E0E6, #F6CECE, #F6CECE, #F8E0E6);
+	background-image:     -ms-linear-gradient(top, #F8E0E6, #F6CECE, #F6CECE, #F8E0E6);
+	background-image:      -o-linear-gradient(top, #F8E0E6, #F6CECE, #F6CECE, #F8E0E6);
+	border: 1px solid #111;
+	border-radius: 5px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+	margin: auto;
+	padding: 24px 0;
+	position: absolute;
+    top: 30px;right: 30px;
+    z-index: 1;
+}
+#countdown #tiles1 > span{
+	width: 80px;
+    height: 80px;
+    top: -15px;
+	font: bold 40px 'Droid Sans', Arial, sans-serif;
+	text-align: center;
+	color: #111;
+	background-color: #ddd;
+	background-image: -webkit-linear-gradient(top, #bbb, #eee); 
+	background-image:    -moz-linear-gradient(top, #bbb, #eee);
+	background-image:     -ms-linear-gradient(top, #bbb, #eee);
+	background-image:      -o-linear-gradient(top, #bbb, #eee);
+	border-top: 1px solid #fff;
+	border-radius: 3px;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
+	margin: 0 7px;
+	padding: 14px 0;
+	display: inline-block;
+	position: relative;
+}
+
+#countdown .labels{
+	width: 100%;
+	height: 25px;
+	text-align: center;
+	position: absolute;
+	bottom: 8px;
+}
+
+#countdown .labels li{
+	width: 100px;
+	font: bold 15px 'Droid Sans', Arial, sans-serif;
+	color:red;
+	text-shadow: 1px 1px 0px #000;
+	text-align: center;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.tieudeketqua{
+    color:red;
+    font-size: 27px;
+    font-weight: bold;
+}
+.tuvung_sp{
+    display: none;
+}
+.loinhapctl{
+    display: none;
+    color:red;
+}
+.loinhapctlrd{
+    display: none;
+    color:red;
+}
+@media screen and (max-width: 1024px){
+    .container{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 730px){
+    .container{
+        width: 100%;
+    }
+    a{
+        font-size: 13px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .dsbh_p2{
+        display: none;
+    }
+    .dsbh_p1{
+        padding: 20px;
+    }
+    .dsbh_p1 h2{
+        font-size: 18px;
+    }
+    .dd h3{
+        font-size: 12px;
+    }
+    .nd {
+        padding: 15px;
+        margin: 5% auto;
+        width: 80%;
+    }
+    .ld{
+        margin-top: 0px;
+    }
+    .ln{
+        margin-top: 0px;
+    }
+    .tuvung_pc{
+        display: none;
+    }
+    .tuvung_sp{
+        display: block;
+    }
+    #database_sp{
+        font-size: 13px;
+    }
+    .docvanmau{
+        line-height: 160%;
+    }
+    .docvanmau p{
+        font-size: 13px;
+    }
+    .hinhdaidien{
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .hinhdaidien img{
+        width:300px;
+        height:170px;
+    }
+    .audio{
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .khung{
+        margin-left: 0px;
+        font-size: 13px;
+    }
+    .hinhbainghe img{
+        width:320px;
+        height:200px; 
+    }
+    .tieudeketqua{
+        font-size: 17px;
+        font-weight: bold;
+    }
+}
