@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\cauhoituvung;
+use App\Models\cauhoituvung;
+use App\Models\bai;
 use Excel;
 use DB;
-use App\bai;
 
 class CauHoiTuVungController extends Controller
 {

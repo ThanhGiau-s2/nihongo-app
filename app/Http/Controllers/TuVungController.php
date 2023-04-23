@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\tuvung;
-use App\bai;
+use App\Models\tuvung;
+use App\Models\bai;
 use Excel;
 use DB;
 

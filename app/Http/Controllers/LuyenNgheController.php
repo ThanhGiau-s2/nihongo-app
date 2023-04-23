@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\luyennghe;
-use App\bai;
+use App\Models\luyennghe;
+use App\Models\bai;
 use Excel;
 use DB;
 

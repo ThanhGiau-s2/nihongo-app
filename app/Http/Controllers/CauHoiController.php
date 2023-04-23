@@ -3,8 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\cauhoi;
-use App\luachon;
+use App\Models\cauhoi;
 use Excel;
 use DB;
 use App\bai;

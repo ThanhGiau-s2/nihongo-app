@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\chitietbaitapnghe_1;
-use App\bai;
+use App\Models\chitietbaitapnghe_1;
+use App\Models\bai;
 use Excel;
 use DB;
 

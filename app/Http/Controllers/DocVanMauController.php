@@ -3,11 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Bai;
+use App\Models\Bai;
 use Excel;
 use DB;
 use Validator;
-use App\docvanmau;
+use App\Models\docvanmau;
 class DocVanMauController extends Controller
 {
     //

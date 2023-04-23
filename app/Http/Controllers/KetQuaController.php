@@ -1,12 +1,12 @@
 <?php
 namespace App\Http\Controllers;
 use DB;
-use App\kqktnps;
-use App\kqkttvs;
-use App\ketquaktbaicus;
-use App\chitietkqktnps;
-use App\chitietkqkttvs;
-use App\chitietkqktbaicuses;
+use App\Models\kqktnps;
+use App\Models\kqkttvs;
+use App\Models\ketquaktbaicus;
+use App\Models\chitietkqktnps;
+use App\Models\chitietkqkttvs;
+use App\Models\chitietkqktbaicuses;
 
 class KetQuaController extends Controller
 {

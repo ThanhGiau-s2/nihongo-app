@@ -17,7 +17,7 @@
         <h3>Danh sách bài học</h3>
         <ul>
             @foreach($tenbh as $tbh)
-                <li><a href="bai/{{$tbh->id}}"><b>Bài{{$tbh->id}}:</b> {{$tbh->tieude}}</a></li>
+                <li><a href="bai/{{$tbh->id}}"><b>Bài {{$tbh->id}}: </b> {{$tbh->tieude}}</a></li>
             @endforeach
         </ul>
     </div>

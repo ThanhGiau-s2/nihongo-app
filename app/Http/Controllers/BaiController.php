@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Bai;
+use App\Models\Bai;
 use Excel;
 use DB;
 
@@ -57,35 +57,35 @@ class BaiController extends Controller
         return redirect('admin/bai/list')->with('thongbao','Sửa thành công');
     }
     public function downloadExcelSample()
-	{
-		$data = array
+    {
+        $data = array
         (
             array('ten'),
-		);
-		return Excel::create('Danh sách bài học', function($excel) use ($data) {
-			$excel->sheet('Danh sách bài học', function($sheet) use ($data)
-	        {
-				$sheet->fromArray($data,null, 'A1', false, false);
-	        });
-		})->download('xlsx');
-	}
-	public function importExcel(Request $request)
-	{       
+        );
+        return Excel::create('Danh sách bài học', function($excel) use ($data) {
+            $excel->sheet('Danh sách bài học', function($sheet) use ($data)
+            {
+                $sheet->fromArray($data,null, 'A1', false, false);
+            });
+        })->download('xlsx');
+    }
+    public function importExcel(Request $request)
+    {       
         if($request->hasFile('import_file')){
             $file = $request->import_file;
             $path = $file->getRealPath();
-			$data = Excel::load($path, function($reader) {
-			})->get();
-			if(!empty($data) && $data->count()){
-				foreach ($data as $key => $value) {
-					$insert[] = ['ten' => $value->ten];					
-				}
-				if(!empty($insert)){
-					DB::table('bais')->insert($insert);					
-					return redirect('admin/bai/list')->with('thongbao','Thêm dữ liệu thành công.');		
-				}
-			}
-		}
-		return back();
-	}
+            $data = Excel::load($path, function($reader) {
+            })->get();
+            if(!empty($data) && $data->count()){
+                foreach ($data as $key => $value) {
+                    $insert[] = ['ten' => $value->ten];					
+                }
+                if(!empty($insert)){
+                    DB::table('bais')->insert($insert);					
+                    return redirect('admin/bai/list')->with('thongbao','Thêm dữ liệu thành công.');		
+                }
+            }
+        }
+        return back();
+    }
 }

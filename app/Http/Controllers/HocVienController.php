@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\hocvien;
-use App\user;
+use App\Models\hocvien;
+use App\Models\user;
 use Illuminate\Support\Facades\Hash;
 class HocVienController extends Controller
 {

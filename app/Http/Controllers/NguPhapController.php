@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\nguphap;
+use App\Models\nguphap;
+use App\Models\bai;
 use Excel;
 use DB;
-use App\bai;
 
 class NguPhapController extends Controller
 {

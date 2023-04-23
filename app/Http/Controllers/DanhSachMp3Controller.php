@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\danhsachmp3;
+use App\Models\danhsachmp3;
 use Excel;
 use DB;
-use App\bai;
+use App\Models\bai;
 class DanhSachMp3Controller extends Controller
 {
     //

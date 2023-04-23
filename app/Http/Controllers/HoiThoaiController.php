@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\hoithoai;
-use App\bai;
+use App\Models\hoithoai;
+use App\Models\bai;
 use Excel;
 use DB;
 class HoiThoaiController extends Controller

@@ -3,11 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\cauhoinguphap;
-use App\luachon;
+use App\Models\bai;
+use App\Models\cauhoinguphap;
 use Excel;
 use DB;
-use App\bai;
 
 class CauHoiNguPhapController extends Controller
 {

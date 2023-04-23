@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\bangchucaichitiet;
-use App\bai;
+use App\Models\bangchucaichitiet;
+use App\Models\bai;
 use Excel;
 use DB;
 class BangChuCaiChiTietController extends Controller
